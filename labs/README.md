@@ -288,9 +288,9 @@ Upon reviewing the analysis, there's a noticeable discrepancy between the **Tota
      $I_{R5} = I_1 \approx 3.03A$
 
 3. **Recalculating Voltage Across Current Source $U_J$:**
-   $$
-   U_J = V_{R3} + V_{R4} - E_3 = 3.03 \times 25 + (-3) \times 30 - 30 \approx 75.75 - 90 - 30 = -44.25V
-   $$
+
+   $U_J = V_{R3} + V_{R4} - E_3 = 3.03 \times 25 + (-3) \times 30 - 30 \approx 75.75 - 90 - 30 = -44.25V$
+
    - The negative sign indicates the actual polarity is opposite to the assumed direction.
 
 4. **Revising Power Calculations:**
