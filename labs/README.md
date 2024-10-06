@@ -119,28 +119,20 @@ Now that we have the mesh currents, let’s calculate the current in each branch
 
 - **Current through $R_2$:**
   
-  $$
-  I_{R2} = I_3 = 1A
-  $$
+  $I_{R2} = I_3 = 1A$
   
 - **Current through $R_3$:**
   
-  $$
-  I_{R3} = I_1 = 7.6A
-  $$
+  $I_{R3} = I_1 = 7.6A$
   
 - **Current through $R_4$:**
   
-  $$
-  I_{R4} = I_3 - I_2 = 1A - 4A = -3A
-  $$
+  $I_{R4} = I_3 - I_2 = 1A - 4A = -3A$
   
 - **Current through $R_5$:**
   
-  $$
-  I_{R5} = I_1 = 7.6A
-  $$
-
+  $I_{R5} = I_1 = 7.6A$
+  
 ---
 
 ### **Step 3: Voltage Across Current Source $U_J$**
@@ -267,20 +259,19 @@ Upon reviewing the analysis, there's a noticeable discrepancy between the **Tota
 1. **Loop 1 KVL Correction:**
    - The original KVL for Loop 1 was incorrectly simplified to $-58I_1 + 25I_2 = 0$.
    - The correct KVL should be:
-     $$
-     -8I_1 -25(I_1 - I_2) = 0 \implies -33I_1 +25I_2 = 0
-     $$
+
+     $-8I_1 -25(I_1 - I_2) = 0 \implies -33I_1 +25I_2 = 0$
+
    - Substituting $I_2 = 4A$:
-     $$
-     -33I_1 +100 = 0 \implies I_1 = \frac{100}{33} \approx 3.03A
-     $$
+
+     $-33I_1 +100 = 0 \implies I_1 = \frac{100}{33} \approx 3.03A$
 
 2. **Recalculating Currents:**
    - With the corrected $I_1 \approx 3.03A$, subsequent branch currents need recalculating.
    - **Loop 3 KVL remains correct:**
-     $$
-     20 +30I_3 -50 = 0 \implies I_3 = 1A
-     $$
+
+     $20 +30I_3 -50 = 0 \implies I_3 = 1A$
+
    - **Branch Currents:**
      $I_{R2} = I_3 = 1A$
      $I_{R3} = I_1 \approx 3.03A$
